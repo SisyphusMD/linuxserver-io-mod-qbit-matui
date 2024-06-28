@@ -20,7 +20,7 @@ if [ ! -d /qbit-matui ]; then
     unzip qbit-matui.zip -d /
 
   # Remove zip after unpacking
-  rm /qbit-matui.zip
+  rm qbit-matui.zip
 
   mv /qbit-mat* /qbit-matui
 
